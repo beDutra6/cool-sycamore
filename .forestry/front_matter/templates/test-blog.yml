@@ -1,4 +1,18 @@
 ---
 label: Test blog
 hide_body: true
-fields: []
+fields:
+- name: test
+  type: text
+  config:
+    required: false
+  label: test
+  description: test
+- name: test_blocks
+  type: blocks
+  label: test blocks
+  template_types: []
+  config:
+    min: 
+    max: 
+  description: sdasd<br><br>
